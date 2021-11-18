@@ -1,0 +1,49 @@
+/* CSS */
+
+* {
+  background-color: hsl(30, 100%, 80%);
+}
+
+.main-header {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: hsl(29, 100%, 25%);
+}
+
+.chef-hat {
+  height: auto;
+  width: 120px;
+  /* To center align a picture: */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe-list {
+  font-size: 25px;
+  font-family: 'Shippori Antique', sans-serif;
+  color: hsl(29, 100%, 30%);
+}
+
+/* Helpful to get rid of the link/text decoration */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* For giving some style when hovering */
+a:hover {
+  color: hsl(29, 100%, 40%);
+}
+
+/* Imported fonts*/
+
+/* Pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Shippori Antique */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shippori+Antique&display=swap');
